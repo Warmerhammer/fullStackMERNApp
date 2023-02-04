@@ -1,0 +1,136 @@
+body {
+  background-color: #0C163D;
+  font-size: calc(10px + 2vmin);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #F4C500;
+  padding: 40px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #E26B00;
+  border-bottom: 1px #E26B00 dashed;
+  margin: 0
+}
+
+h1 {
+  margin: 0;
+}
+
+.description {
+  margin: 0;
+  align-items: flex-end;
+  padding-top: 1vh;
+  font-size: x-large;
+}
+
+.navigationComponent {
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: start;
+  margin-bottom: 8vh;
+}
+
+.weightLiftingIcon {
+  margin-top: 2vh;
+  align-self: flex-end;
+}
+
+.nav, .nav ol a:link, .nav ol a:visited {
+  display: inline;
+  flex-direction: row;
+  margin-top: 0;
+  color: #F4C500;
+  font-size: medium;
+  padding-left: 0;
+}
+
+.nav ol svg {
+  color: #E26B00;
+  size: 10px;
+  height: .85em;
+  width: 2.5em;
+  padding-top: .35vh;
+}
+
+.nav ol {
+  display: inline-flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.App-link, a:visited, a:link, link {
+  color: #F4C500;
+}
+
+tr th {
+  border: 4px #E26B00 solid;
+  padding: 10px;
+}
+
+tr, tr td {
+  border: 2px #E26B00 solid;
+  padding: 10px;
+}
+
+table {
+  margin-bottom: 5vh;
+}
+
+input {
+  border: 1px #F4C500 solid;
+  padding: 10px;
+  margin-left: .5vw;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: .5px #F4C500 solid;
+  background-color: rgba(244, 197, 0, .4);
+  color: #F4C500;
+  padding: 4px 7px;
+}
+
+select {
+  border: .5px #F4C500 solid;
+  padding: 9px;
+}
+
+footer {
+  margin-top: 10vh;
+  font-size: large;
+  color: #E26B00;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
